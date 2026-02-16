@@ -1,0 +1,1 @@
+skylight : linear-gradient(45deg, hsl(206.57deg 89.74% 54.12%), hsl(207deg 53% 71% / 23%));

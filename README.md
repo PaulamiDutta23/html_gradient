@@ -1,6 +1,8 @@
+## Colours
+
 # skylight : linear-gradient(45deg, hsl(206.57deg 89.74% 54.12%), hsl(207deg 53% 71% / 23%));
 
-lemonade-seagreen : linear-gradient(45deg, hsl(65.52deg 69.96% 54.31%) 40%, hsl(186.79deg 100% 41.57%));
+# lemonade-seagreen : linear-gradient(45deg, hsl(65.52deg 69.96% 54.31%) 40%, hsl(186.79deg 100% 41.57%));
 
 rosy-corner : linear-gradient(41deg, hsl(339.61deg 82.19% 51.57%), hsl(340deg 63.63% 87.99%), hsl(339.61deg 82.19% 51.57%));
 

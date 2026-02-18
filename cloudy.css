@@ -1,0 +1,117 @@
+ .main-container {
+   background: whitesmoke;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   overflow: scroll;
+   /* gap : 10px; */
+   /* background: linear-gradient(45deg, hsl(206.57deg 89.74% 54.12%), hsl(207deg 53% 71% / 23%)); */
+   /* background-color: hsl(186.79deg 100% 41.57%);
+  background-image: repeating-linear-gradient(90deg, transparent 0px 20px, hsl(53.88deg 100% 61.57%) 20px 40px),
+    repeating-linear-gradient(transparent 0px 20px, hsl(53.88deg 100% 61.57%) 20px 40px); */
+ }
+
+ #cloudy {
+   background: linear-gradient(45deg, hsl(206.57deg 89.74% 54.12%), hsl(207deg 53% 71% / 23%));
+ }
+
+ #cloudy a {
+   color: hsl(207, 90%, 35%);
+ }
+
+ .button {
+   width: 20px;
+   margin: 5px;
+   position: fixed;
+   top: 850px;
+   right: 70px;
+ }
+
+ .button a {
+   text-decoration: none;
+   color: black;
+   font-size: 20px;
+   padding: 10px;
+   background-color: white;
+   border-radius: 15px;
+ }
+
+ .pattern {
+   width: 200px;
+   height: 300px;
+   border-radius: 5px;
+   box-shadow: 8px 8px 4px 2px rgb(217, 216, 216);
+   margin-top: 20px;
+   margin-bottom: 20px;
+ }
+
+ .linear-gradient {
+   background: linear-gradient(45deg, hsl(206.57deg 89.74% 54.12%), hsl(207deg 53% 71% / 23%));
+ }
+
+ .checkerboard {
+   background-color: white;
+   background-image: repeating-linear-gradient(90deg, transparent 0px 20px, hsl(206.57deg 89.74% 54.12%/50%) 20px 40px),
+     repeating-linear-gradient(transparent 0px 20px, hsl(206.57deg 89.74% 54.12%/50%) 20px 40px);
+ }
+
+ .corner-top-to-bottom {
+   background-image: repeating-linear-gradient(45deg, white, hsl(206.57deg 89.74% 54.12%) 50px);
+ }
+
+ .corner-bottom-to-top {
+   background-image: repeating-linear-gradient(135deg, white, hsl(206.57deg 89.74% 54.12%) 50px);
+ }
+
+ .alternating-triangle {
+   background: linear-gradient(45deg, white 50%, hsl(206.57deg 89.74% 54.12%)50%);
+   background-size: 50px 50px;
+ }
+
+ .square {
+   background: repeating-linear-gradient(45deg, white, hsl(206.57deg 89.74% 54.12%));
+   background-size: 50px 50px;
+ }
+
+ .small-square {
+   background-color: hsl(206.57deg 89.74% 54.12%);
+   background-image: repeating-linear-gradient(90deg, transparent 10px 30px, white 30px 50px),
+     repeating-linear-gradient(transparent 10px 30px, white 30px 50px);
+ }
+
+ .alternating-reverse-triangle {
+   background: linear-gradient(135deg, hsl(206.57deg 89.74% 54.12%)50%, white 50%);
+   background-size: 50px 50px;
+ }
+
+ .vertical-stripe {
+   background-color: hsl(206.57deg 89.74% 54.12%);
+   background-image: repeating-linear-gradient(90deg, transparent 10px 20px, white 20px 30px);
+ }
+
+ .horizontal-stripe {
+   background-color: hsl(206.57deg 89.74% 54.12%);
+   background-image: repeating-linear-gradient(transparent 10px 20px, white 20px 30px);
+ }
+
+ .top-to-bottom-stripe {
+   background-color: hsl(206.57deg 89.74% 54.12%);
+   background-image: repeating-linear-gradient(135deg, transparent 10px 20px, white 20px 30px);
+ }
+
+ .bottom-to-top-stripe {
+   background-color: hsl(206.57deg 89.74% 54.12%);
+   background-image: repeating-linear-gradient(45deg, transparent 10px 20px, white 20px 30px);
+ }
+
+ .chess-board {
+   background-color: hsl(206.57deg 89.74% 54.12%);
+   background-image: repeating-conic-gradient(transparent 0deg 90deg, white 90deg 180deg);
+   background-size: 50px 50px;
+ }
+
+ .miscellaneous {
+   background: repeating-linear-gradient(transparent 10px 20px, white 20px 30px);
+   background-image: radial-gradient(circle at 10px 10px, transparent 5px 10px, hsl(206.57deg 89.74% 54.12%)10px 15px);
+   background-size: 50px 50px;
+ }

@@ -3,6 +3,17 @@
 # skylight : linear-gradient(45deg, hsl(206.57deg 89.74% 54.12%), hsl(207deg 53% 71% / 23%));
 
 # lemonade-seagreen : linear-gradient(45deg, hsl(65.52deg 69.96% 54.31%) 40%, hsl(186.79deg 100% 41.57%));
+   -> corner-bottom-top : repeating-linear-gradient(135deg, hsl(53.88deg 100% 61.57%), hsl(186.79deg 100% 41.57%) 50px);
+   -> alternating-triangle : background: linear-gradient(45deg, hsl(65.52deg 69.96% 54.31%)50%, hsl(186.79deg 100% 41.57%)50%);
+      background-size:120px 120px;
+  -> square-pattern : background: repeating-linear-gradient(45deg, hsl(53.88deg 100% 61.57%), hsl(186.79deg 100% 41.57%));
+      background-size:120px 120px;
+  -> checkerboard : background-color: hsl(186.79deg 100% 41.57%);
+      background-image: repeating-linear-gradient(90deg, transparent 0px 20px, hsl(53.88deg 100% 61.57% / 70%) 20px 40px),
+        repeating-linear-gradient(transparent 0px 20px, hsl(53.88deg 100% 61.57% / 70%) 20px 40px);
+  -> small-squares : background-color: hsl(186.79deg 100% 41.57%);
+      background-image: repeating-linear-gradient(90deg, transparent 0px 20px, hsl(53.88deg 100% 61.57%) 20px 40px),
+        repeating-linear-gradient(transparent 0px 20px, hsl(53.88deg 100% 61.57%) 20px 40px);
 
 rosy-corner : linear-gradient(41deg, hsl(339.61deg 82.19% 51.57%), hsl(340deg 63.63% 87.99%), hsl(339.61deg 82.19% 51.57%));
 
@@ -25,3 +36,5 @@ mango-blush : linear-gradient(133deg, hsl(0 48% 47% / 1), hsl(411 95% 54% / 1), 
 watermelon-blend: linear-gradient(45deg, hsl(0 90% 54% / 1), hsl(116 67% 40% / 1));
 
 soft-breeze : linear-gradient(45deg, hsl(185 90% 67% / 1), hsl(330 86% 82% / 1));
+
+diagonal-black-white : linear-gradient(45deg, hsl(0 0% 0%) 20%, hsl(0deg 0% 100% / 23%) 40%), linear-gradient(135deg, hsl(0 0% 0%) 20%, hsl(0deg 0% 100% / 23%) 40%), linear-gradient(225deg, hsl(0 0% 0%) 20%, hsl(0deg 0% 100% / 23%) 40%), linear-gradient(315deg, hsl(0 0% 0%) 20%, hsl(0deg 0% 100% / 23%) 40%);
